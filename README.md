@@ -28,6 +28,10 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionParameters
  - VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu
  - VRC.Core.PipelineManager
+ - VRC.SDK3.Dynamics.Contact.Components.VRCContactReceiver
+ - VRC.SDK3.Dynamics.Contact.Components.VRCContactSender
+ - VRC.SDK3.Dynamics.PhysBone.Components.VRCPhysBone
+ - VRC.SDK3.Dynamics.PhysBone.Components.VRCPhysBoneCollider
  - VRC.Dynamics.CollisionScene
  - VRC.Dynamics.ContactBase
  - VRC.Dynamics.ContactReceiver
@@ -35,10 +39,6 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.Dynamics.VRCContactReceiver
  - VRC.Dynamics.VRCPhysBoneBase
  - VRC.Dynamics.VRCPhysBoneColliderBase
- - VRC.SDK3.Dynamics.Contact.Components.VRCContactReceiver
- - VRC.SDK3.Dynamics.Contact.Components.VRCContactSender
- - VRC.SDK3.Dynamics.PhysBone.Components.VRCPhysBone
- - VRC.SDK3.Dynamics.PhysBone.Components.VRCPhysBoneCollider
  - VRC.SDK3.VRCTestMarker
  - VRC.SDKBase.IAnimParameterAccess
  - VRC.SDKBase.VRC_AvatarDescriptor
@@ -46,7 +46,15 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.SDKBase.VRCCustomAction
  - VRC.SDKBase.VRCStation
  
-## Version history
+## Some screenshot
+![VRCAvatarDescriptor](https://user-images.githubusercontent.com/51113234/182151065-f092508b-8559-4842-8277-beb09c923e2e.png)
+![VRCExpressionsMenu](https://user-images.githubusercontent.com/51113234/182151074-4c5d3587-fb3d-4a74-87ba-8e351a12d742.png)
+![VRCExpressionParameters](https://user-images.githubusercontent.com/51113234/182151086-3cba3c6f-4ee3-4f6e-b410-3a572f884b26.png)
+![VRCPhysBone](https://user-images.githubusercontent.com/51113234/182151096-ab6108f1-3d73-4918-9ee8-a7b3e8c48e7a.png)
+![VRCPhysBoneCollider](https://user-images.githubusercontent.com/51113234/182151103-90d7d7c8-9881-4871-9561-310c7e80a719.png)
 
+
+
+## Version history
 **V0.1 July 29, 2022**
  - Initial release
