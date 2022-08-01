@@ -12,7 +12,7 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
 
 ## Tips
  - VRCSDK folder must be deleted before installation.
- - This plugin will not automatically add ScriptingDefineSymbols, you can add it manually if needed.
+ - This plugin will not automatically add "VRC_SDK_VRCSDK3" to ScriptingDefineSymbols, you can add it manually if needed.
 
 ## Support list
  - Supported local variable
