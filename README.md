@@ -50,4 +50,3 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
 
 **V0.1 July 29, 2022**
  - Initial release
- - Support local avatar test
