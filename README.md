@@ -10,11 +10,16 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - [VRCPhysBone To DynamicBone Converter](https://booth.pm/zh-cn/items/4032295)
  - [vrc3cvr](https://github.com/imagitama/vrc3cvr)
 
+## Tips
+ - VRCSDK folder must be deleted before installation.
+ - This plugin will not automatically add ScriptingDefineSymbols, you can add it manually if needed.
+
 ## Support list
- - All local variable
- - All enum
- - All struct
- - Method not supported
+ - Supported local variable
+ - Supported enum
+ - Supported struct
+ - Not supported Static variable 
+ - Not supported Method
 
 ## Support class list
  - VRC.SDK3.Avatars.Components.VRCAvatarDescriptor
@@ -40,3 +45,9 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.SDKBase.VRC_SpatialAudioSource
  - VRC.SDKBase.VRCCustomAction
  - VRC.SDKBase.VRCStation
+ 
+## Version history
+
+**V0.1 July 29, 2022**
+ - Initial release
+ - Support local avatar test
