@@ -4,6 +4,7 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
 ## What is this
  - It can replace the VRChat SDK while retaining the original parameters of Avatar.
  - No need to install VRCSDK anymore when converting avatar to games like ChilloutVR.
+ - Develop based on the **VRCSDK3-AVATAR-2022.07.26.21.45_Public**
  - Has a negligible volume, only 47.4 KB.
 
 ## Tested with
