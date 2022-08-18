@@ -39,9 +39,15 @@
     <Compile Include="SDKBase\IAnimParameterAccess.cs" />
     <Compile Include="SDKBase\VRCCustomAction.cs" />
     <Compile Include="SDKBase\VRCStation.cs" />
+    <Compile Include="SDKBase\VRC_AnimatorLayerControl.cs" />
+    <Compile Include="SDKBase\VRC_AnimatorLocomotionControl.cs" />
+    <Compile Include="SDKBase\VRC_AnimatorTemporaryPoseSpace.cs" />
+    <Compile Include="SDKBase\VRC_AnimatorTrackingControl.cs" />
     <Compile Include="SDKBase\VRC_AvatarDescriptor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDKBase\VRC_AvatarParameterDriver.cs" />
     <Compile Include="SDKBase\VRC_EventHandler.cs" />
+    <Compile Include="SDKBase\VRC_PlayableLayerControl.cs" />
     <Compile Include="SDKBase\VRC_SpatialAudioSource.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

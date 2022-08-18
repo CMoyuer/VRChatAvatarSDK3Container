@@ -35,7 +35,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\VRCAnimatorLayerControl.cs" />
+    <Compile Include="Components\VRCAnimatorLocomotionControl.cs" />
+    <Compile Include="Components\VRCAnimatorTemporaryPoseSpace.cs" />
+    <Compile Include="Components\VRCAnimatorTrackingControl.cs" />
     <Compile Include="Components\VRCAvatarDescriptor.cs" />
+    <Compile Include="Components\VRCAvatarParameterDriver.cs" />
+    <Compile Include="Components\VRCPlayableLayerControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScriptableObjects\VRCExpressionParameters.cs" />
     <Compile Include="ScriptableObjects\VRCExpressionsMenu.cs" />
