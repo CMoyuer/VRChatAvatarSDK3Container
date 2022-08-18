@@ -26,6 +26,12 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.SDK3.Avatars.Components.VRCAvatarDescriptor
  - VRC.SDK3.Avatars.Components.VRCSpatialAudioSource
  - VRC.SDK3.Avatars.Components.VRCStation
+ - VRC.SDK3.Avatars.Components.VRCAnimatorLayerControl
+ - VRC.SDK3.Avatars.Components.VRCAnimatorLocomotionControl
+ - VRC.SDK3.Avatars.Components.VRCAnimatorTemporaryPoseSpace
+ - VRC.SDK3.Avatars.Components.VRCAnimatorTrackingControl
+ - VRC.SDK3.Avatars.Components.VRCAvatarParameterDriver
+ - VRC.SDK3.Avatars.Components.VRCPlayableLayerControl
  - VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionParameters
  - VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu
  - VRC.Core.PipelineManager
@@ -46,6 +52,12 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
  - VRC.SDKBase.VRC_SpatialAudioSource
  - VRC.SDKBase.VRCCustomAction
  - VRC.SDKBase.VRCStation
+ - VRC.SDKBase.VRC_AnimatorLayerControl
+ - VRC.SDKBase.VRC_AnimatorLocomotionControl
+ - VRC.SDKBase.VRC_AnimatorTemporaryPoseSpace
+ - VRC.SDKBase.VRC_AnimatorTrackingControl
+ - VRC.SDKBase.VRC_AvatarParameterDriver
+ - VRC.SDKBase.VRC_PlayableLayerControl
  
 ## Some screenshot
 ![VRCAvatarDescriptor](https://user-images.githubusercontent.com/51113234/182151065-f092508b-8559-4842-8277-beb09c923e2e.png)
@@ -53,9 +65,12 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
 ![VRCExpressionParameters](https://user-images.githubusercontent.com/51113234/182151086-3cba3c6f-4ee3-4f6e-b410-3a572f884b26.png)
 ![VRCPhysBone](https://user-images.githubusercontent.com/51113234/182151096-ab6108f1-3d73-4918-9ee8-a7b3e8c48e7a.png)
 ![VRCPhysBoneCollider](https://user-images.githubusercontent.com/51113234/182151103-90d7d7c8-9881-4871-9561-310c7e80a719.png)
-
-
+![VRCAvatarParameterDriver](https://user-images.githubusercontent.com/51113234/185279379-338bda24-9faf-4a73-a931-583c9cbf87db.png)
 
 ## Version history
+
+**V0.2 August 18, 2020**
+ - Supprot all state behaviors
+ 
 **V0.1 July 29, 2022**
  - Initial release
