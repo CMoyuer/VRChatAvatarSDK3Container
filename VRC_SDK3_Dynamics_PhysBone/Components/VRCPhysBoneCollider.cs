@@ -7,7 +7,7 @@ using VRC.Dynamics;
 
 namespace VRC.SDK3.Dynamics.PhysBone.Components
 {
-    class VRCPhysBoneCollider : VRCPhysBoneColliderBase
+    public class VRCPhysBoneCollider : VRCPhysBoneColliderBase
     {
     }
 }

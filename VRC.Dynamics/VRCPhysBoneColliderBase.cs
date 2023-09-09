@@ -38,5 +38,7 @@ namespace VRC.Dynamics
             Capsule = 1,
             Plane = 2
         }
+
+        public Transform GetRootTransform() => rootTransform != null ? rootTransform : transform;
     }
 }

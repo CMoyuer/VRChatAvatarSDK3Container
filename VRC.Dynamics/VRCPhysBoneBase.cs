@@ -161,5 +161,7 @@ namespace VRC.Dynamics
             public CollisionScene.Shape shape;
             public VRCPhysBoneColliderBase collider;
         }
+
+        public Transform GetRootTransform() => rootTransform != null ? rootTransform : transform;
     }
 }

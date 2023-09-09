@@ -10,6 +10,7 @@ A lightweight DLL that replaces the bulky VRChatAvatarSDK3.
 ## Tested with
  - [VRCPhysBone To DynamicBone Converter](https://booth.pm/zh-cn/items/4032295)
  - [vrc3cvr](https://github.com/imagitama/vrc3cvr)
+ - [Dreadrith/Physbone-Converter](https://github.com/Dreadrith/PhysBone-Converter)
 
 ## Tips
  - VRCSDK folder must be deleted before installation.
